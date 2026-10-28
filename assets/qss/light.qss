@@ -1,0 +1,913 @@
+QPushButton {
+    background-color: #e9e9e9;
+    padding: 4px;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+
+    font: 600 12pt "Bahnschrift SemiBold";
+}
+QPushButton:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 2px solid #82C445;
+}
+QPushButton:pressed {
+    background-color: #87b37e;
+    color: #82C445;
+    border: 2px solid #659C36;
+}
+QPushButton:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+
+QLabel {
+    border-radius: 12px;
+    color: #82C445;
+    padding: 4px;
+}
+
+QToolButton {
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+    font: 600 12pt "Bahnschrift SemiBold";
+}
+QToolButton:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 2px solid #82C445;
+}
+QToolButton:pressed {
+    background-color: #87b37e;
+    color: #82C445;
+    border: 2px solid #659C36;
+}
+QPushButton:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+
+QRadioButton{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+    font: 600 12pt "Bahnschrift SemiBold";
+    padding: 0px 0px 0px 10px;
+}
+QRadioButton:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 2px solid #82C445;
+}
+QRadioButton:pressed {
+    background-color: #87b37e;
+    color: #82C445;
+    border: 2px solid #659C36;
+}
+QRadioButton:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QRadioButton::indicator {
+    height: 8px;
+    width: 8px;
+    border-radius: 5px;
+    border: 2px solid #a8a8a8;
+    background-color: #e9e9e9;
+}
+QRadioButton::indicator:checked {
+    background-color: #82C445;
+}
+QRadioButton::indicator:hover {
+    border: 2px solid #82C445;
+}
+QRadioButton::indicator:unchecked {
+    background-color: #e9e9e9;
+}
+QRadioButton::indicator:disabled {
+    background-color: #d1d1d1;
+    border: 2px solid #555555;
+}
+
+QCheckBox{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+    font: 600 12pt "Bahnschrift SemiBold";
+    padding: 0px 0px 0px 10px;
+}
+QCheckBox:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 2px solid #82C445;
+}
+QCheckBox:pressed {
+    background-color: #87b37e;
+    color: #82C445;
+    border: 2px solid #659C36;
+}
+QCheckBox:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QCheckBox::indicator {
+    height: 8px;
+    width: 8px;
+    border: 2px solid #a8a8a8;
+    background-color: #e9e9e9;
+}
+QCheckBox::indicator:checked {
+    background-color: #82C445;
+}
+QCheckBox::indicator:hover {
+    border: 2px solid #82C445;
+}
+QCheckBox::indicator:unchecked {
+    background-color: #e9e9e9;
+}
+QCheckBox::indicator:disabled {
+    background-color: #d1d1d1;
+    border: 2px solid #555555;
+}
+
+QListView {
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+    font: 600 11pt "Bahnschrift SemiBold";
+    padding: 6px;
+    outline: none;
+    show-decoration-selected: 1;
+    alternate-background-color: #292929;
+}
+QListView::item {
+    background-color: transparent;
+    color: #82C445;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin: 2px;
+}
+QListView::item:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 1px solid #89b377;
+}
+QListView::item:selected {
+    background-color: #88b174;
+    color: #A3FF5C;
+    border: 1px solid #82C445;
+}
+QListView::item:selected:hover {
+    background-color: #678656;
+    color: #B4FF80;
+    border: 1px solid #A3FF5C;
+}
+QListView:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+
+QScrollBar{
+    border-radius: 10px;
+}
+QScrollBar:vertical {
+    background-color: #d1d1d1;
+    width: 12px;
+    margin: 4px 2px 4px 2px;
+    border: none;
+    border-radius: 6px;
+}
+QScrollBar::handle:vertical {
+    background-color: #454545;
+    min-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #505050;
+}
+QScrollBar::handle:vertical:hover {
+    background-color: #82C445;
+    border: 1px solid #A3FF5C;
+}
+QScrollBar::handle:vertical:pressed {
+    background-color: #659C36;
+}
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    border: none;
+}
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background-color: transparent;
+}
+QScrollBar:horizontal {
+    background-color: #d1d1d1;
+    height: 12px;
+    margin: 2px 4px 2px 4px;
+    border: none;
+    border-radius: 6px;
+}
+QScrollBar::handle:horizontal {
+    background-color: #454545;
+    min-width: 30px;
+    border-radius: 5px;
+    border: 1px solid #505050;
+}
+QScrollBar::handle:horizontal:hover {
+    background-color: #82C445;
+    border: 1px solid #A3FF5C;
+}
+QScrollBar::handle:horizontal:pressed {
+    background-color: #659C36;
+}
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+    border: none;
+}
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    background-color: transparent;
+}
+
+QTreeView{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+    font: 600 11pt "Bahnschrift SemiBold";
+    padding: 6px;
+    outline: none;
+    show-decoration-selected: 1;
+    alternate-background-color: #292929;
+}
+QTreeView::item {
+    background-color: transparent;
+    color: #82C445;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin: 2px;
+}
+QTreeView::item:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 1px solid #4B6540;
+}
+QTreeView::item:selected {
+    background-color: #35452D;
+    color: #A3FF5C;
+    border: 1px solid #82C445;
+}
+QTreeView::item:selected:hover {
+    background-color: #3D5033;
+    color: #B4FF80;
+    border: 1px solid #A3FF5C;
+}
+QTreeView:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QHeaderView{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+    font: 600 12pt "Bahnschrift SemiBold";
+}
+
+QTableView{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+    font: 600 11pt "Bahnschrift SemiBold";
+    padding: 6px;
+    outline: none;
+    show-decoration-selected: 1;
+    alternate-background-color: #292929;
+}
+QTableView::item {
+    background-color: transparent;
+    color: #82C445;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin: 2px;
+}
+QTableView::item:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 1px solid #4B6540;
+}
+QTableView::item:selected {
+    background-color: #35452D;
+    color: #A3FF5C;
+    border: 1px solid #82C445;
+}
+QTableView::item:selected:hover {
+    background-color: #3D5033;
+    color: #B4FF80;
+    border: 1px solid #A3FF5C;
+}
+QTableView:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+
+QGroupBox{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border-radius: 12px;
+    font: 600 12pt "Bahnschrift SemiBold";
+}
+
+QGroupBox{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #2B2B2B;
+    border-radius: 12px;
+    font: 600 12pt "Bahnschrift SemiBold";
+}
+
+QToolBox {
+    background-color: #e9e9e9;
+    color: #82C445;
+
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+
+    font: 600 11pt "Bahnschrift SemiBold";
+}
+QToolBox::tab {
+    color: #82C445;
+
+    border: 1px solid #a8a8a8;
+    border-bottom: 2px solid #454545;
+    border-radius: 8px;
+
+    font: 600 11pt "Bahnschrift SemiBold";
+}
+QToolBox::tab:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+
+    border: 1px solid #82C445;
+}
+QToolBox::tab:selected {
+    background-color: #35452D;
+    color: #A3FF5C;
+
+    border: 1px solid #82C445;
+    border-bottom: 2px solid #A3FF5C;
+}
+
+QFrame{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+}
+
+QComboBox {
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 10px;
+    padding: 4px;
+    font: 600 11pt "Bahnschrift SemiBold";
+    selection-background-color: #35452D;
+    selection-color: #A3FF5C;
+}
+QComboBox:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 2px solid #82C445;
+}
+QComboBox:focus {
+    border: 2px solid #659C36;
+}
+QComboBox:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+
+    width: 30px;
+
+    background-color: #303030;
+    border-left: 1px solid #a8a8a8;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+QComboBox::drop-down:hover {
+    background-color: #3A4435;
+    border-left: 1px solid #82C445;
+}
+QComboBox::down-arrow {
+    image: url(:/icons/asagiOk.png);
+    width: 12px;
+    height: 12px;
+}
+
+QLineEdit{
+    background-color: #e9e9e9;
+    color: #82C445;
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+    font: 600 12pt "Bahnschrift SemiBold";
+}
+QLineEdit:hover {
+    background-color: #a5b9a5;
+    color: #A3FF5C;
+    border: 2px solid #82C445;
+}
+QLineEdit:pressed {
+    background-color: #87b37e;
+    color: #82C445;
+    border: 2px solid #659C36;
+}
+QLineEdit:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+
+QSpinBox {
+    background-color: #e9e9e9;
+    color: #82C445;
+
+    border: 2px solid #a8a8a8;
+    border-radius: 10px;
+
+    padding: 6px 8px;
+
+    font: 600 11pt "Bahnschrift SemiBold";
+
+    selection-background-color: #35452D;
+    selection-color: #A3FF5C;
+}
+QSpinBox:hover {
+    background-color: #a5b9a5;
+    border: 2px solid #82C445;
+    color: #A3FF5C;
+}
+QSpinBox:focus {
+    border: 2px solid #659C36;
+}
+QSpinBox:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QSpinBox::up-button,
+QSpinBox::down-button {
+    background-color: #303030;
+
+    width: 24px;
+
+    border: none;
+    border-left: 1px solid #a8a8a8;
+}
+QSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+
+    border-top-right-radius: 8px;
+}
+QSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+
+    border-bottom-right-radius: 8px;
+}
+QSpinBox::up-button:hover,
+QSpinBox::down-button:hover {
+    background-color: #3A4435;
+    border-left: 1px solid #82C445;
+}
+QSpinBox::up-button:pressed,
+QSpinBox::down-button:pressed {
+    background-color: #87b37e;
+}
+QSpinBox::up-arrow {
+    image: url(:/icons/yukariOk.png);
+    width: 10px;
+    height: 10px;
+}
+QSpinBox::down-arrow {
+    image: url(:/icons/asagiOk.png);
+    width: 10px;
+    height: 10px;
+}
+
+QDoubleSpinBox {
+    background-color: #e9e9e9;
+    color: #82C445;
+
+    border: 2px solid #a8a8a8;
+    border-radius: 10px;
+
+    padding: 6px 8px;
+
+    font: 600 11pt "Bahnschrift SemiBold";
+
+    selection-background-color: #35452D;
+    selection-color: #A3FF5C;
+}
+QDoubleSpinBox:hover {
+    background-color: #a5b9a5;
+    border: 2px solid #82C445;
+    color: #A3FF5C;
+}
+QDoubleSpinBox:focus {
+    border: 2px solid #659C36;
+}
+QDoubleSpinBox:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QDoubleSpinBox::up-button,
+QDoubleSpinBox::down-button {
+    background-color: #303030;
+
+    width: 24px;
+
+    border: none;
+    border-left: 1px solid #a8a8a8;
+}
+QDoubleSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+
+    border-top-right-radius: 8px;
+}
+QDoubleSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+
+    border-bottom-right-radius: 8px;
+}
+QDoubleSpinBox::up-button:hover,
+QDoubleSpinBox::down-button:hover {
+    background-color: #3A4435;
+    border-left: 1px solid #82C445;
+}
+QDoubleSpinBox::up-button:pressed,
+QDoubleSpinBox::down-button:pressed {
+    background-color: #87b37e;
+}
+QDoubleSpinBox::up-arrow {
+    image: url(:/icons/yukariOk.png);
+    width: 10px;
+    height: 10px;
+}
+QDoubleSpinBox::down-arrow {
+    image: url(:/icons/asagiOk.png);
+    width: 10px;
+    height: 10px;
+}
+
+QTimeEdit {
+    background-color: #e9e9e9;
+    color: #82C445;
+
+    border: 2px solid #a8a8a8;
+    border-radius: 10px;
+
+    padding: 6px 8px;
+
+    font: 600 11pt "Bahnschrift SemiBold";
+
+    selection-background-color: #35452D;
+    selection-color: #A3FF5C;
+}
+QTimeEdit:hover {
+    background-color: #a5b9a5;
+    border: 2px solid #82C445;
+    color: #A3FF5C;
+}
+QTimeEdit:focus {
+    border: 2px solid #659C36;
+}
+QTimeEdit:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QTimeEdit::up-button,
+QTimeEdit::down-button {
+    background-color: #303030;
+
+    width: 24px;
+
+    border: none;
+    border-left: 1px solid #a8a8a8;
+}
+QTimeEdit::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+
+    border-top-right-radius: 8px;
+}
+QTimeEdit::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+
+    border-bottom-right-radius: 8px;
+}
+QTimeEdit::up-button:hover,
+QTimeEdit::down-button:hover {
+    background-color: #3A4435;
+    border-left: 1px solid #82C445;
+}
+QTimeEdit::up-button:pressed,
+QTimeEdit::down-button:pressed {
+    background-color: #87b37e;
+}
+QTimeEdit::up-arrow {
+    image: url(:/icons/yukariOk.png);
+    width: 10px;
+    height: 10px;
+}
+QTimeEdit::down-arrow {
+    image: url(:/icons/asagiOk.png);
+    width: 10px;
+    height: 10px;
+}
+
+QDateEdit {
+    background-color: #e9e9e9;
+    color: #82C445;
+
+    border: 2px solid #a8a8a8;
+    border-radius: 10px;
+
+    padding: 6px 8px;
+
+    font: 600 11pt "Bahnschrift SemiBold";
+
+    selection-background-color: #35452D;
+    selection-color: #A3FF5C;
+}
+QDateEdit:hover {
+    background-color: #a5b9a5;
+    border: 2px solid #82C445;
+    color: #A3FF5C;
+}
+QDateEdit:focus {
+    border: 2px solid #659C36;
+}
+QDateEdit:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QDateEdit::up-button,
+QDateEdit::down-button {
+    background-color: #303030;
+
+    width: 24px;
+
+    border: none;
+    border-left: 1px solid #a8a8a8;
+}
+QDateEdit::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+
+    border-top-right-radius: 8px;
+}
+QDateEdit::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+
+    border-bottom-right-radius: 8px;
+}
+QDateEdit::up-button:hover,
+QDateEdit::down-button:hover {
+    background-color: #3A4435;
+    border-left: 1px solid #82C445;
+}
+QDateEdit::up-button:pressed,
+QDateEdit::down-button:pressed {
+    background-color: #87b37e;
+}
+QDateEdit::up-arrow {
+    image: url(:/icons/yukariOk.png);
+    width: 10px;
+    height: 10px;
+}
+QDateEdit::down-arrow {
+    image: url(:/icons/asagiOk.png);
+    width: 10px;
+    height: 10px;
+}
+
+QDateTimeEdit {
+    background-color: #e9e9e9;
+    color: #82C445;
+
+    border: 2px solid #a8a8a8;
+    border-radius: 10px;
+
+    padding: 6px 8px;
+
+    font: 600 11pt "Bahnschrift SemiBold";
+
+    selection-background-color: #35452D;
+    selection-color: #A3FF5C;
+}
+QDateTimeEdit:hover {
+    background-color: #a5b9a5;
+    border: 2px solid #82C445;
+    color: #A3FF5C;
+}
+QDateTimeEdit:focus {
+    border: 2px solid #659C36;
+}
+QDateTimeEdit:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QDateTimeEdit::up-button,
+QDateTimeEdit::down-button {
+    background-color: #303030;
+
+    width: 24px;
+
+    border: none;
+    border-left: 1px solid #a8a8a8;
+}
+QDateTimeEdit::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+
+    border-top-right-radius: 8px;
+}
+QDateTimeEdit::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+
+    border-bottom-right-radius: 8px;
+}
+QDateTimeEdit::up-button:hover,
+QDateTimeEdit::down-button:hover {
+    background-color: #3A4435;
+    border-left: 1px solid #82C445;
+}
+QDateTimeEdit::up-button:pressed,
+QDateTimeEdit::down-button:pressed {
+    background-color: #87b37e;
+}
+QDateTimeEdit::up-arrow {
+    image: url(:/icons/yukariOk.png);
+    width: 10px;
+    height: 10px;
+}
+QDateTimeEdit::down-arrow {
+    image: url(:/icons/asagiOk.png);
+    width: 10px;
+    height: 10px;
+}
+
+QDial {
+    background-color: #e9e9e9;
+    color: #82C445;
+
+    border: 2px solid #a8a8a8;
+    border-radius: 12px;
+
+    selection-background-color: #35452D;
+    selection-color: #A3FF5C;
+}
+QDial:focus {
+    border: 2px solid #659C36;
+}
+QDial:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+
+QProgressBar {
+    background-color: #d1d1d1;
+    color: #A3FF5C;
+
+    border: 2px solid #a8a8a8;
+    border-radius: 8px;
+
+    text-align: center;
+
+    font: 600 10pt "Bahnschrift SemiBold";
+
+    min-height: 18px;
+    max-height: 24px;
+}
+QProgressBar::chunk {
+    background-color: #82C445;
+    border-radius: 5px;
+}
+QProgressBar:hover {
+    border: 2px solid #659C36;
+}
+QProgressBar:disabled {
+    background-color: #d1d1d1;
+    color: #555555;
+    border: 2px solid #2B2B2B;
+}
+QProgressBar:disabled::chunk {
+    background-color: #454545;
+}
+
+QStatusBar{
+    color: #82C445;
+}
+
+QSlider{
+    border-radius: 10px;
+}
+QSlider:vertical {
+    background-color: #d1d1d1;
+    width: 12px;
+    margin: 4px 2px 4px 2px;
+    border: none;
+    border-radius: 6px;
+}
+QSlider::handle:vertical {
+    background-color: #454545;
+    min-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #505050;
+}
+QSlider::handle:vertical:hover {
+    background-color: #82C445;
+    border: 1px solid #A3FF5C;
+}
+QSlider::handle:vertical:pressed {
+    background-color: #659C36;
+}
+QSlider::add-line:vertical,
+QSlider::sub-line:vertical {
+    height: 0px;
+    border: none;
+}
+QSlider::add-page:vertical,
+QSlider::sub-page:vertical {
+    background-color: transparent;
+}
+QSlider:horizontal {
+    background-color: #d1d1d1;
+    height: 12px;
+    margin: 2px 4px 2px 4px;
+    border: none;
+    border-radius: 6px;
+}
+QSlider::handle:horizontal {
+    background-color: #454545;
+    min-width: 30px;
+    border-radius: 5px;
+    border: 1px solid #505050;
+}
+QSlider::handle:horizontal:hover {
+    background-color: #82C445;
+    border: 1px solid #A3FF5C;
+}
+QSlider::handle:horizontal:pressed {
+    background-color: #659C36;
+}
+QSlider::add-line:horizontal,
+QSlider::sub-line:horizontal {
+    width: 0px;
+    border: none;
+}
+QSlider::add-page:horizontal,
+QSlider::sub-page:horizontal {
+    background-color: transparent;
+}
+QSlider::groove:horizontal {
+    background-color: #82C445;
+    height: 8px;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background-color: #FFFFFF;
+    width: 16px;
+    margin: -4px 0;
+    border-radius: 8px;
+}

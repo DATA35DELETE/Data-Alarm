@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/asagiOk.png</file>
+        <file>icons/yukariOk.png</file>
+        <file>assets/icons/ayarlar.png</file>
+        <file>assets/icons/copKutusu</file>
+        <file>assets/icons/indirme.png</file>
+        <file>assets/icons/yukleme.png</file>
+        <file>assets/icons/tema.png</file>
+        <file>assets/icons/alarm.png</file>
+        <file>assets/qss/dark.qss</file>
+        <file>assets/qss/light.qss</file>
+    </qresource>
+</RCC>
